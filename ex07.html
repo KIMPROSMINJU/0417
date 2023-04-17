@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 1080px;
+            margin: 0 auto;
+            margin-bottom: 8px;
+        }
+        .left{
+            clear: both;
+            float: left;
+            width: 740px;
+            height: 428px;
+            background: red;
+            margin-bottom: 8px;
+        }
+        .right{
+            float: right;
+            width: 332px;
+            height: 428px;
+            background: blue;
+        }
+        .gnb{
+            float: left;
+            margin: 8px 0px 8px 0px;
+            background: green;
+        }
+        ul.gnb > li{
+            list-style-type: none;
+            float: left;
+            padding-left: 16px;
+        }
+        ul.gnb:first-child{
+            padding-left: 0px;
+        }
+        .rank{
+            float: right;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background: yellow;
+        }
+        .rank > li{
+            list-style: none;
+        }
+        .footer{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Logo</h1>
+    </div>
+
+    <div class="container">
+        <ul class="gnb">
+            <li>c</li>
+            <li>b</li>
+            <li>s</li>
+            <li>d</li>
+            <li>n</li>
+            <li>i</li>
+            <li>a</li>
+            <li>m</li>
+        </ul>
+        <ul class="rank">
+            <li>실시간 검색 순위</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    
+    <div class="container">
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
